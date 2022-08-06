@@ -1,0 +1,31 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },    
+	"python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintArgs": [
+
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestPath": "pytest",
+    "python.testing.pytestArgs": [],
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.testing.cwd": "./tests/",
+    "python.testing.promptToConfigure": true,
+    "python.linting.cwd": "/",
+    "python.autoComplete.extraPaths": ["./src"],
+    "python.defaultInterpreterPath": "python",
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.languageServer": "Pylance",
+	"python.formatting.blackArgs": [],
+    "python.formatting.blackPath": "black",
+    "python.formatting.provider": "black"
+}
